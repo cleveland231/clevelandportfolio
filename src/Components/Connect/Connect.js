@@ -5,7 +5,9 @@ import './Connect.css';
 export const Connect = () => {
   return (
     <div className='Connect'>
-
+      <div>
+        Connect
+      </div>
 
     </div>
   )

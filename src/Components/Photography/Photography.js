@@ -5,7 +5,9 @@ import './Photography.css';
 export const Photography = () => {
   return (
     <div className='Photography'>
-
+      <div>
+        Photography
+      </div>
 
     </div>
   )

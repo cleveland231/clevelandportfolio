@@ -5,7 +5,9 @@ import './Blog.css';
 export const Blog = () => {
   return (
     <div className='Blog'>
-
+      <div>
+        Blog
+      </div>
 
     </div>
   )

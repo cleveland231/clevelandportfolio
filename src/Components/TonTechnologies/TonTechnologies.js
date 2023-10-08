@@ -5,7 +5,9 @@ import './TonTechnologies.css';
 export const TonTechnologies = () => {
   return (
     <div className='TonTechnologies'>
-
+      <div>
+        TonTechnologies
+      </div>
 
     </div>
   )

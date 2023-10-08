@@ -1,0 +1,59 @@
+.Navigation {
+    display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+  	align-items: center;
+  	align-content: flex-start;
+    padding: 1rem;
+}
+
+.NavigationText:link {
+	text-decoration: none;
+	color: black;
+}
+
+.NavigationText:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.NavigationText:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+.NavigationText:active {
+	text-decoration: none;
+	color: grey;
+}
+
+.NavigationBar {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.NameContainer {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+}
+
+.RandomCircle {
+  background-color: blue;
+  color: blue;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.SoftwareEngineerText, .NavigationText, .RandomCircle {
+  padding: .50rem;
+}

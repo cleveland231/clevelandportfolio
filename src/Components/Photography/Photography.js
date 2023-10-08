@@ -6,7 +6,7 @@ export const Photography = () => {
   return (
     <div className='Photography'>
       <div>
-        Photography
+        Coming soon...
       </div>
 
     </div>

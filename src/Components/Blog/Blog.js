@@ -6,7 +6,7 @@ export const Blog = () => {
   return (
     <div className='Blog'>
       <div>
-        Blog
+        Coming soon...
       </div>
 
     </div>

@@ -1,0 +1,11 @@
+.ProjectBox {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+
+}
+
+.ProjectName, .ProjectDescriptionBox {
+  padding: 1.5rem;
+    width: 25%;
+}

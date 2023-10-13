@@ -5,9 +5,7 @@ import './Blog.css';
 export const Blog = () => {
   return (
     <div className='Blog'>
-      <div>
-        Cleveland's Blog coming soon...
-      </div>
+      <h2> Blog Coming Soon... </h2>
 
     </div>
   )

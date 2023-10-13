@@ -4,7 +4,7 @@ import { Navigation } from '../Navigation/Navigation';
 import { Home } from '../Home/Home'
 import { Blog } from '../Blog/Blog'
 import { Connect } from '../Connect/Connect'
-import { Photography } from '../Photography/Photography'
+import { Media } from '../Media/Media'
 import { TonTechnologies } from '../TonTechnologies/TonTechnologies'
 import { Projects } from '../Projects/Projects'
 
@@ -17,7 +17,7 @@ function App() {
         <Route path="/blog" element={<Blog/>}/>
         <Route path="/tontechnologies" element={<TonTechnologies/>}/>
         <Route path="/projects" element={<Projects/>}/>
-        <Route path="/photography" element={<Photography/>}/>
+        <Route path="/media" element={<Media/>}/>
         <Route path="/connect" element={<Connect/>}/>
       </Routes>
     </div>

@@ -13,7 +13,7 @@ export const Navigation = () => {
         <NavLink className="NavigationText" to="/blog"> <p> Blog </p> </NavLink>
         <NavLink className="NavigationText" to="/tontechnologies"> <p> Ton Technologies </p> </NavLink>
         <NavLink className="NavigationText" to="/projects"> <p> Projects </p>  </NavLink>
-        <NavLink className="NavigationText" to="/photography"> <p> Photography </p> </NavLink>
+        <NavLink className="NavigationText" to="/media"> <p> Media </p> </NavLink>
         <NavLink className="NavigationText" to="/connect"> <p> Connect </p> </NavLink>
       </div>
     </div>

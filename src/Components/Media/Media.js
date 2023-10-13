@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './Photography.css';
+import './Media.css';
 
-export const Photography = () => {
+export const Media = () => {
   return (
-    <div className='Photography'>
+    <div className='Media'>
       <div>
         Coming soon...
       </div>

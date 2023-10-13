@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import ProfilePic from '../../Assets/BaldProfilePic.JPG'
 import './Home.css';
 
 export const Home = () => {
@@ -7,7 +8,7 @@ export const Home = () => {
     <div className='Home'>
 
 
-        <img className='ProfilePic' src={'https://github.com/turingschool-examples/whats-cookin-starter-kit/assets/96998327/a8e19c56-2750-40d2-a053-5f86d35721f3'} alt="Greeley" />
+        <img className='ProfilePic' src={ ProfilePic } alt="Cleveland profile picture" />
 
         <div className='Subtitle'>
           <h2 className='WelcomeText'> Hello friends! I’m Cleveland </h2>

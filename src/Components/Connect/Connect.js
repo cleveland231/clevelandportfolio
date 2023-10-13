@@ -10,7 +10,7 @@ export const Connect = () => {
   }
   return (
     <div className="Connect">
-      <h2 className="Titles"> Contact </h2>
+      <h2 className="Titles"> Connect </h2>
       <form className="ContactForm" onSubmit={sendEmail}>
         <label htmlFor="emailFrom"> Your Email: </label>
         <input type="text" name="email_from" id="emailForm" className="email_from" required/>

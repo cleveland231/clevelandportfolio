@@ -13,11 +13,17 @@
 }
 
 .ProfilePic {
-    height: 20rem;
-    width: 20rem;
-    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    overflow: hidden;
+    clip-path: circle();
 }
 
 .ProfilePic, .Subtitle {
-  padding: 2.5rem;
+  margin: 2.5rem;
+}
+
+.Subtitle {
+  width: 60%;
+  height: 100%;
 }

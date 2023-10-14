@@ -7,11 +7,10 @@ export const Home = () => {
   return (
     <div className='Home'>
 
-
         <img className='ProfilePic' src={ ProfilePic } alt="Cleveland profile picture" />
 
         <div className='Subtitle'>
-          <h2 className='WelcomeText'> Hello friends! I’m Cleveland </h2>
+          <h2 className='WelcomeText'> Hello friends! </h2>
           <div className='WelcomeText'>
             <p>Front End Software Engineer working in Health Care.
             I currently am a Residential Manager responsible for care and supporting clients
@@ -26,7 +25,7 @@ export const Home = () => {
             future. I am also open to freelance work (Ton Technologies).
             </p>
             <p>
-            When not working I enjoy training running, pickle ball, climbing,
+            Outside of work I enjoy training running, pickle ball, climbing,
             weight lifting, or discovering new dining spots with friends and family.
             I maintain a relentless drive to challenge myself, always eager to embrace new opportunities
             that foster both my personal and professional growth.

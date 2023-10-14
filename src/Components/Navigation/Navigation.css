@@ -5,6 +5,7 @@
   	justify-content: space-between;
   	align-items: center;
   	align-content: flex-start;
+    margin-top: -2rem;
     padding: 1rem;
 }
 
@@ -55,5 +56,5 @@
 }
 
 .SoftwareEngineerText, .NavigationText, .RandomCircle {
-  padding: .50rem;
+  padding: .75rem;
 }

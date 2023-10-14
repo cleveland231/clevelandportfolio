@@ -15,7 +15,7 @@ input {
   margin: 1rem;
   padding: .5rem;
   border-radius: .25rem;
-  outline: 1px solid black;
+
 }
 
 textarea {
@@ -24,7 +24,7 @@ textarea {
   margin: 1rem;
   padding: .5rem;
   border-radius: .25rem;
-  outline: 2px solid black;
+
 }
 
 label {
@@ -32,23 +32,13 @@ label {
 }
 
 .SendButton {
-  padding: 1rem;
+  border-radius: 50%;
+  background-color: blue;
+  color: #EEEEEE;
+  height: 7rem;
+  width: 7rem;
   font-size: 1rem;
-  border-radius: .5rem;
   font-weight: bold;
-  background-color: white;
-  color: #002868;
-  outline: .25rem solid #002868;
-  margin: 1rem;
-  height: 2rem;
-  width: 10rem;
-  word-wrap: break-word;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: stretch;
 }
 
 @media (max-width: 500px) {
@@ -58,7 +48,7 @@ label {
     margin: 1rem;
     padding: .5rem;
     border-radius: .25rem;
-    outline: 1px solid black;
+
   }
 
   textarea {
@@ -67,6 +57,6 @@ label {
     margin: 1rem;
     padding: .5rem;
     border-radius: .25rem;
-    outline: 2px solid black;
+
   }
 }

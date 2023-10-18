@@ -19,8 +19,8 @@ export const Projects = () => {
               Freelance Work
             </h4>
             <div className="ProjectDescription">
-              I designed and developed the website for Colorado Loving Cares,
-              employing optimal UI/UX principles to ensure that it serves as the
+              I designed and developed the website for Colorado Loving Care.
+              Employing optimal UI/UX principles to ensure that it serves as the
               primary destination for individuals seeking information about the
               company.
             </div>
@@ -31,8 +31,26 @@ export const Projects = () => {
 
         <div className="ProjectBox">
           <div className="ProjectName">
+            <h3> Personal Website </h3>
+            <h4> www.clevelandticoalu.com </h4>
+            <h4> January 2023 - Present </h4>
+          </div>
+          <div className="ProjectDescriptionBox">
+            <h4>
+              Personal Project
+            </h4>
+            <div className="ProjectDescription">
+              This website is my blog, portfolio, connecter for the world.
+            </div>
+            <p> Languages: React, JSX, ReactRouter </p>
+            <p> Technologies: ReactRouter, Cypress </p>
+          </div>
+        </div>
+
+        <div className="ProjectBox">
+          <div className="ProjectName">
             <h3> HeatCheck </h3>
-            <h4> Heatcheck.com </h4>
+            <h4> Heatcheck </h4>
             <h4> October 2022 </h4>
           </div>
           <div className="ProjectDescriptionBox">
@@ -51,7 +69,7 @@ export const Projects = () => {
         <div className="ProjectBox">
           <div className="ProjectName">
             <h3> NunSlinger </h3>
-            <h4> NunSlinger.com </h4>
+            <h4> NunSlinger </h4>
             <h4> September 2022 </h4>
           </div>
           <div className="ProjectDescriptionBox">

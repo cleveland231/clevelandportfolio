@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import ProfilePic from '../../Assets/BaldProfilePic.JPG'
+import ProfilePic from '../../Assets/profilepic23.jpeg'
 import './Home.css';
 
 export const Home = () => {

@@ -10,7 +10,8 @@ export const Home = () => {
         <img className='ProfilePic' src={ ProfilePic } alt="Cleveland profile picture" />
 
         <div className='Subtitle'>
-          <h2 className='WelcomeText'> Hello friends! </h2>
+          <h2 className='WelcomeText'> Hello friends </h2>
+          <h4 className='WelcomeText'> Welcome, I'm Cleveland! </h4>
           <div className='WelcomeText'>
             <p>Front End Software Engineer working in Health Care.
             I currently am a Residential Manager responsible for care and supporting clients

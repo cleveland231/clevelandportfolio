@@ -40,7 +40,8 @@ export const Projects = () => {
               Personal Project
             </h4>
             <div className="ProjectDescription">
-              This website is my blog, portfolio, connecter for the world.
+              This website is my blog, brand, portfolio, and connecter to the world.
+              Please read my blog, check out my work, and connect with me!
             </div>
             <p> Languages: React, JSX, ReactRouter </p>
             <p> Technologies: ReactRouter, Cypress </p>

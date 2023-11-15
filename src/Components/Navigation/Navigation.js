@@ -8,6 +8,16 @@ export const Navigation = () => {
         <div className="RandomCircle">CT</div>
         <NavLink className="NavigationText" to="/"> <h1> Cleveland Ticoalu </h1> </NavLink>
         <div className="SoftwareEngineerText"> Software Engineer </div>
+
+        <div class="dropdown">
+           <button>Food</button>
+           <div class="content">
+               <a href="">Apple</a>
+               <a href="">Orange</a>
+               <a href="">Banana</a>
+           </div>
+        </div>
+        
       </div>
       <div className='NavigationBar'>
         <NavLink className="NavigationText" to="/blog"> <p> Blog </p> </NavLink>
@@ -16,6 +26,9 @@ export const Navigation = () => {
         <NavLink className="NavigationText" to="/media"> <p> Media </p> </NavLink>
         <NavLink className="NavigationText" to="/connect"> <p> Connect </p> </NavLink>
       </div>
+
+
+
     </div>
   )
 }

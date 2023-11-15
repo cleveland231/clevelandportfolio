@@ -10,9 +10,18 @@ export const Media = () => {
     <div className='Media'>
       <h2> Media </h2>
       <div className='PhotoBoxHolder'>
-        <img className='MediaPic' src={ LongsPeak } alt="Longs Peak" />
-        <img className='MediaPic' src={ StMartin } alt="Thurgood by da beach" />
-        <img className='MediaPic' src={ Utah } alt="Utah" />
+        <div className="PhotoBox">
+          <img className='MediaPic' src={ LongsPeak } alt="Longs Peak" />
+            <p>Longs peak 2022</p>
+        </div>
+        <div className="PhotoBox">
+          <img className='MediaPic' src={ StMartin } alt="Thurgood by da beach" />
+            <p>St Marteen 2022</p>
+        </div>
+        <div className="PhotoBox">
+          <img className='MediaPic' src={ Utah } alt="Utah" />
+            <p>Utah 2020</p>
+        </div>
       </div>
 
     </div>

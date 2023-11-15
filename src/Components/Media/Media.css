@@ -1,14 +1,18 @@
 .MediaPic {
   padding: 1rem;
-  height: 25%;
-  width: 25%;
+  height: 70%;
+  width: 70%;
 }
 
 .PhotoBoxHolder {
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: flex-start;
 	align-content: flex-start;
+}
+
+.PhotoBox {
+  width: 30%;
 }

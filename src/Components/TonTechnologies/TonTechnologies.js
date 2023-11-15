@@ -7,6 +7,7 @@ export const TonTechnologies = () => {
     <div className='TonTechnologies'>
       <div className="Services">
           <h2> Ton Technologies </h2>
+          <h2> Need a website? Let's connect! </h2>
         <div className='ServicesBox'>
           <h2> Freelance Services: </h2>
           <li> Website </li>

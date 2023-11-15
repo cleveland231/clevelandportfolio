@@ -41,6 +41,11 @@ label {
   font-weight: bold;
 }
 
+.Links {
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width: 500px) {
   input {
     height: 1rem;

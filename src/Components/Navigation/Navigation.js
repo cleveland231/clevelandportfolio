@@ -10,14 +10,16 @@ export const Navigation = () => {
         <div className="SoftwareEngineerText"> Software Engineer </div>
 
         <div class="dropdown">
-           <button>Food</button>
+           <button>Inspect</button>
            <div class="content">
-               <a href="">Apple</a>
-               <a href="">Orange</a>
-               <a href="">Banana</a>
+             <NavLink className="DropDownText" to="/blog"> <p> Blog </p> </NavLink>
+             <NavLink className="DropDownText" to="/tontechnologies"> <p> Ton Technologies </p> </NavLink>
+             <NavLink className="DropDownText" to="/projects"> <p> Projects </p>  </NavLink>
+             <NavLink className="DropDownText" to="/media"> <p> Media </p> </NavLink>
+             <NavLink className="DropDownText" to="/connect"> <p> Connect </p> </NavLink>
            </div>
         </div>
-        
+
       </div>
       <div className='NavigationBar'>
         <NavLink className="NavigationText" to="/blog"> <p> Blog </p> </NavLink>

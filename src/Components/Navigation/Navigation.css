@@ -78,7 +78,7 @@
     border: none;
     cursor: pointer;
 }
-.dropdown a{
+.dropdown .DropDownText{
     display: block;
     color: black;
     text-decoration: none;
@@ -97,7 +97,7 @@
 .dropdown:hover button{
     background-color: hsl(0, 0%, 70%);
 }
-.dropdown a:hover{
+.dropdown .DropDownText:hover{
     background-color: hsl(0, 0%, 90%);
 }
 

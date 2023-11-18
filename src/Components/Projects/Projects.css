@@ -9,3 +9,18 @@
   padding: 1.5rem;
     width: 25%;
 }
+
+@media (max-width: 500px) {
+  .ProjectBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .ProjectName, .ProjectDescriptionBox {
+      padding: 1.5rem;
+      width: 80%;
+  }
+
+}
